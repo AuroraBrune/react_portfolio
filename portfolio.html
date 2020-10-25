@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <div class="mx-auto col-lg-12">
+        <!--Responsive/Interractive NavBar-->
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand">Aurora Brune Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!--Links to each page.-->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">Contact Info</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./portfolio.html">Portfolio</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </nav>
+    </div>
+    <div class="m-4 row"></div>
+    <div class="jumbotron mx-md-5">
+        <!--styles the jumbotron so we have margins outside on large screen and no left or right on sm screen.-->
+
+        <div class="container">
+            <header>
+                <h1 class="text-center text-primary">KU Coding Bootcamp Projects</h1>
+            </header>
+            <!--Images of some of my favorite things.-->
+            <div class="container">
+                <div class="m-4 row">
+                    <!--Add spacing above the Images.-->
+                    <div class="col-lg-12"></div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+
+                        <img class="img-fluid rounded" src="./Assets/Images/responsiveWeatherDashboard.png"
+                            alt="Weather Dashboard">
+                        <p class="text-primary">The Weather Dashboard app allows users can search for the current and
+                            five day forcast for any US city. This app features dynamically updated
+                            HTML and CSS powered by jQuery, and will save the searched citys in local storage.
+                        </p>
+                        <!--<P> tags to add captions to  the images-->
+                    </div>
+
+                    <div class="col-lg-4">
+                        <img class="img-fluid rounded" src="./Assets/Images/Weather-Dashboard.png"
+                            alt="Weather Dashboard">
+                        <p class="projlinks"><a href="https://aurorabrune.github.io/weather-dashboard/"
+                                target="blank">Weather Dashboard</a></p>
+                        <p class="text-primary"> </p>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <img class="img-fluid rounded" src="./Assets/Images/projectscreen.png" alt="NASA SpaceX">
+                        <p class="text-primary">The NASA SpaceX project allows users to search the NASA and SpaceX
+                            databases
+                            and download information about future, current and past space missions. You'll get
+                            interesting facts and pictures of missions.
+                        </p>
+                        <p class="projlinks"><a href="https://reidbuckingham48.github.io/spacex-nasa-flight-data/"
+                                target="_blank">NASA SpaceX</a></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3">
+                        <img class="img-fluid rounded float-left" src="./Assets/Images/dayPlannerLocalStorage.png"
+                            alt="Day Planner">
+                        <p class="text-primary">This Day Planner helps users keep track of their busy days. The user can
+                            put in
+                            their scheduled events for the day, and as the day progresses, the colors will change on the
+                            line
+                            for a great visual aid to finding the current event.
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="img-fluid rounded float-left" src="./Assets/Images/dayPlannerScreen.png"
+                            alt="Day Planner">
+                        <p class="projlinks"><a href="https://aurorabrune.github.io/day_plannerHw/" target="blank">Day
+                                Planner</a></p>
+                        <p class="text-primary">
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="img-fluid rounded float-left" src="./Assets/Images/codequizScreenShot.png"
+                            alt="Code Quiz">
+                        <p class="text-primary">As a student in KU Coding Bootcamp I found this an interesting
+                            to create a quiz about Javascript. As the user opens up the webpage, they are presented
+                            with a timed quiz to see how well they've learned Javascript. The score is saved in
+                            local storage. Time is taken off the game clock for any incorrect answers.
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="img-fluid rounded float-left" src="./Assets/Images/codequizScreen.png"
+                            alt="Code Quiz">
+                        <p class="text-primary">
+                        <p class="projlinks"><a href="https://aurorabrune.github.io/code_quiz"
+                                target="_blank">Code Quiz</a></p>
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="img-fluid rounded float-left" src="./Assets/Images/burgerWeek13-1.jpg" alt="Burger">
+                        <p class="text-primary">This Eat Da Burger app was fun. We applied some backend skills
+                            on this assignment, and learned how to store data in a database using MySQL. The user
+                            can submit a burger of their choice, and click on devour it button to consume the burger.
+                            The burger is saved in the database even after being devoured. The burger is moved to
+                            the right side of the screen upon devouring.
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="img-fluid rounded float-left" src="./Assets/Images/burgersDevoured.jpg"
+                            alt="Burger">
+                        <p class="text-primary">
+                        <p class="projlinks"><a href="https://still-chamber-70801.herokuapp.com"
+                                target="_blank">Eat-Da-Burger</a></p>
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="img-fluid rounded float-left" src="./Assets/Images/cocktail-coterieSnapshot.jpg"
+                            alt="Burger">
+                        <p class="text-primary">This Cocktail_Coterie was the second group project. It's the first
+                            full stack project that includes
+                            front end, middleware and back end coding. NodeJS,
+                            MySQL, Passport, Bcrypt are among the languages and packages on this project. The app is deployed
+                            to Heroku.  Cocktail Coterie allows the user to search a database to
+                            load cocktails and save favorite drinks. The user can invite friends to a virtual online cocktail party
+                            through their own Zoom link, as they share a favorite beverage recipe.
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <img class="img-fluid rounded float-left" src="./Assets/Images/cocktailSearchScreenshot.jpg"
+                            alt="Cocktail">
+                        <p class="projlinks"><a href="https://cocktail-coterie.herokuapp.com/"
+                                target="blank">Cocktail_Coterie</a></p>
+                        <p class="text-primary">
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+        integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
