@@ -1,3 +1,10 @@
 import React from "react";
-import Jumbotron from "jumbotron";
 
+function Jumbotron () {
+    return (
+        <div></div>
+        
+    );
+}
+
+export default Jumbotron;

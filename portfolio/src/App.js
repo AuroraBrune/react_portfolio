@@ -1,14 +1,20 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import Home from "./components/pages/Home";
-import Portfolio from "./components/pages/Portfolio";
-import Contact from "./components/pages/Contact";
+// import "bootstrap/dist/css/bootstrap.min.css;"
+import Header from "./components/Header/header";
+import Navbar from "./components/Navbar/navbar";
+import Wrapper from "./components/Wrapper/wrapper";
+import NavTabs from "./components/NavTabs/navtabs";
+import Footer from "./components/Footer/footer";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
     <Router>
       <div>
+        <NavTabs />
         <Header />
         <Navbar />
         <Wrapper>
