@@ -1,9 +1,16 @@
-import React, { Component } from "react";
-import React from 'react';
-import Navbar from 'navbar'
-import Footer from "footer";
-import Navbar from "navbar";
+import React from "react";
+// import Project from "project";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Navbar from "../components/Navbar/navbar";
+import Jumbotron from "../components/Jumbotron/jumbo"
 
+function Portfolio () {
+    return (
+        <div>
+            <Navbar />
+            <Jumbotron />
+        </div>
+    );
+}
 
-
+export default Portfolio;
